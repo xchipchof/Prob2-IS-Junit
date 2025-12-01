@@ -1,8 +1,11 @@
+package java;
+
 import java.util.List;
 import java.util.ArrayList;
 
+
 public class Merger {
-    public List<Integer> mergeSorted(List<Integer> A, List<Integer> B) throws IllegalArgumentException {
+    public static List<Integer> mergeSorted(List<Integer> A, List<Integer> B) throws IllegalArgumentException {
 
         // Check if list1 is sorted in ascending order and has no repeated items
         for (int i = 0; i < A.size() - 1; i++) {
